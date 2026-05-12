@@ -1,0 +1,70 @@
+/* src/Result.css */
+.resultdiv {
+  font-family: Arial, sans-serif;
+
+  /* center + card layout */
+  max-width: 720px;
+  margin: 28px auto;
+  padding: 22px;
+
+  background: linear-gradient(180deg, var(--card2), var(--card));
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(10px);
+
+  /* prevents weird edges when HTML injects tables */
+  overflow: hidden;
+}
+
+.resultdiv h2 {
+  color: #150072;
+  border-bottom: 2px solid #1002aa;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
+
+.resultdiv p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #02025d;
+  margin-bottom: 15px;
+}
+
+.resultdiv table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.resultdiv table,
+.resultdiv th,
+.resultdiv td {
+  border: 1px solid #000;
+}
+
+.resultdiv th,
+.resultdiv td {
+  padding: 12px;
+  text-align: left;
+}
+
+.resultdiv th {
+  background-color: #070124;
+  color: #333;
+}
+
+.resultdiv tr:nth-child(even) {
+  background-color: #0d013a;
+}
+
+.resultdiv tr:hover {
+  background-color: #03925b;
+}
+
+.resultdiv .emphasis {
+  font-weight: bold;
+  color: #411af3;
+}
+
+  
